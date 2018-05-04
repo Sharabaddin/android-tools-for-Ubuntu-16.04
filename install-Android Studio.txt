@@ -3,7 +3,7 @@ sudo apt-get install libc6:i386 libncurses5:i386 libstdc++6:i386 lib32z1 libbz2-
 unzip android-studio-ide-173.4697961-linux.zip -d ~/Downloads/android-studio
 sudo mv ~/Downloads/android-studio /usr/local
 cd /usr/local/android-studio/android-studio/bin/
-.studio.sh
+./studio.sh
 
 [click next next ...]
 
