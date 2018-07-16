@@ -10,7 +10,13 @@ cd /usr/local/android-studio/android-studio/bin/
 Tools > Create Desktop Entry
 
 
+//fix grant current user access to /dev/kvm ubuntu 18
+https://stackoverflow.com/a/51003471
+
 // fix emulator for ubuntu 18.04
 cd Android/Sdk/emulator/lib64/libstdc++
 mv libstdc++.so.6 libstdc++.so.6.bak
 ln -s /usr/lib/x86_64-linux-gnu/libstdc++.so.6
+
+
+
